@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raaghav Mehta</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">Raaghav <span>Mehta</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li class="has-dropdown">
+      <a href="works.html">Works ▾</a>
+      <div class="dropdown">
+        <a href="works.html#audio">Audio</a>
+        <a href="works-sound-design.html">Sound Design</a>
+        <a href="works.html#music">Music Production</a>
+        <a href="works.html#sonic">Sonic Arts</a>
+        <a href="works-graphics.html">Graphics & Photoshop</a>
+        <a href="works-video.html">Video Works</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<div class="page-wrap bg-home">
+  <div class="hero-split container">
+
+    <!-- LEFT: TEXT -->
+    <div class="hero-text">
+      <div class="fade-up">
+        <span class="eyebrow">· Broadcast Systems Engineer · <br>· Sound Designer · <br>· Music Producer</span>
+        <h1 class="display">Hi, I'm <span class="text-teal">Raaghav</span></h1>
+        <p style="font-size:0.85rem; color:var(--muted); letter-spacing:0.08em; margin-top:0.25rem;">also known as <strong>Zykdone</strong></p>
+      </div>
+      <p class="hero-tagline fade-up" style="transition-delay:0.1s">
+        A multidisciplinary creative technology enthusiast, <br>working at the intersection of sound, image, and motion.
+      </p>
+      <div class="fade-up" style="display:flex; gap:1rem; flex-wrap:wrap; transition-delay:0.2s">
+        <a href="works.html" class="btn btn-primary">View My Works</a>
+        <a href="about.html" class="btn btn-outline">About Me</a>
+      </div>
+      <div class="fade-up" style="transition-delay:0.3s; display:flex; gap:1.5rem; margin-top:0.5rem;">
+        <div>
+          <div style="font-size:1.4rem; font-weight:500;">6+</div>
+          <div style="font-size:0.78rem; color:var(--muted);">Years Active</div>
+        </div>
+        <div style="width:1px; background:var(--border);"></div>
+        <div>
+          <div style="font-size:1.4rem; font-weight:500;">40+</div>
+          <div style="font-size:0.78rem; color:var(--muted);">Projects</div>
+        </div>
+        <div style="width:1px; background:var(--border);"></div>
+        <div>
+          <div style="font-size:1.4rem; font-weight:500;">5</div>
+          <div style="font-size:0.78rem; color:var(--muted);">Disciplines</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: PHOTO -->
+    <div class="hero-photo fade-up" style="transition-delay:0.15s">
+      <div class="photo-frame">
+        <!-- Replace src with your actual photo -->
+        <img src="rm-flip.jpeg" alt="Raaghav Mehta" style="width:475px;height:475px;" scale="150%"/>
+        <div class="photo-placeholder">
+          <span>📸</span>
+          <p>Your photo here<br><small style="opacity:0.7">1 : 1 ratio</small></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BRIEF DISCIPLINES STRIP -->
+  <div class="divider"></div>
+  <section class="section-sm">
+    <div class="container">
+      <span class="eyebrow fade-up">What I Do</span>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:1.5rem; margin-top:1.5rem;">
+        <div class="card fade-up" style="padding:1.5rem; transition-delay:0.05s">
+          <div style="font-size:1.6rem; margin-bottom:0.75rem;">🎛️</div>
+          <h3 style="font-size:1rem; margin-bottom:0.4rem;">Music Production</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Crafting sonic landscapes from concept to final mix.</p>
+        </div>
+        <div class="card fade-up" style="padding:1.5rem; transition-delay:0.1s">
+          <div style="font-size:1.6rem; margin-bottom:0.75rem;">🔊</div>
+          <h3 style="font-size:1rem; margin-bottom:0.4rem;">Sound Design</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Textures, SFX and immersive audio worlds.</p>
+        </div>
+        <div class="card fade-up" style="padding:1.5rem; transition-delay:0.15s">
+          <div style="font-size:1.6rem; margin-bottom:0.75rem;">🎨</div>
+          <h3 style="font-size:1rem; margin-bottom:0.4rem;">Graphic Design</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Visual identities, artwork, and digital compositions.</p>
+        </div>
+        <div class="card fade-up" style="padding:1.5rem; transition-delay:0.2s">
+          <div style="font-size:1.6rem; margin-bottom:0.75rem;">🎞️</div>
+          <h3 style="font-size:1rem; margin-bottom:0.4rem;">Video Works</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Motion, editing, and visual storytelling.</p>
+        </div>
+        <div class="card fade-up" style="padding:1.5rem; transition-delay:0.25s">
+          <div style="font-size:1.6rem; margin-bottom:0.75rem;">🌊</div>
+          <h3 style="font-size:1rem; margin-bottom:0.4rem;">Sonic Arts</h3>
+          <p style="font-size:0.82rem; color:var(--muted);">Experimental audio art and installations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-logo">Zykd<span>one</span></div>
+  <p>© 2025 Raaghav Mehta. All rights reserved.</p>
+  <div class="foot-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="works.html">Works</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
