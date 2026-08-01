@@ -482,7 +482,7 @@ footer p { font-size: 0.82rem; }
 }
 @media (max-width: 768px) { .about-grid { grid-template-columns: 1fr; } }
 
-.about-sidebar { position: sticky; top: calc(var(--nav-h) + 2rem); }
+.about-sidebar { position: static; top: calc(var(--nav-h) + 2rem); }
 .about-avatar {
   width: 120px; height: 120px;
   border-radius: 50%;
